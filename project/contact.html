@@ -16,7 +16,7 @@
 						<li><a href="#">News</a></li>
 						<li><a href="#">Tours</a></li>
 						<li><a href="#">Records</a></li>
-						<li><a href="#">Bands</a></li>
+						<li><a href="bandname_profile.html">Bands</a></li>
 						<li><a href="#">Store</a></li>
 						<li><a href="#">Video</a></li>
 						<li><a href="#">Pics</a></li>
@@ -34,29 +34,44 @@
 						<div class="display">
 							<form>
 
-								<label for="band_name">Band Name</label>
-								<input type="text" id="band_name" name="band_name" />
+								<div class="form_input">
+									<label for="band_name">Band Name</label>
+									<input type="text" id="band_name" name="band_name" />
+								</div>
 
-								<label for="band_email">Email Address</label>
-								<input type="email" id="band_email" name="band_email" placeholder="sample@site.com" />
+								<div class="form_input">
+									<label for="band_email">Email Address</label>
+									<input type="email" id="band_email" name="band_email" placeholder="sample@site.com" />
+								</div>
 
-								<label for="facebook_url">Facebook URL</label>
-								<input type="text" id="facebook_url" name="facebook_url" placeholder="facebook.com/sample" />
+								<div class="form_input">
+									<label for="facebook_url">Facebook URL</label>
+									<input type="text" id="facebook_url" name="facebook_url" placeholder="facebook.com/sample" />
+								</div>
 
-								<label>Label Status</label>
-								<label for="unsigned"><input type="radio" id="unsigned" name="unsigned" /> Unsigned </label>
-								<label for="signed"><input type="radio" id="signed" name="signed" /> Signed </label>
+								<div class="form_input">
+									<label>Label Status</label>
+									<label for="unsigned"><input type="radio" id="unsigned" name="unsigned" /> Unsigned </label>
+									<label for="signed"><input type="radio" id="signed" name="signed" /> Signed </label>
+								</div>
 
-								<label for="experience">Experience</label>
-								<textarea id="experience" name="experience"> --- </textarea>
+								<div class="form_input">
+									<label for="experience">Experience</label>
+									<textarea id="experience" name="experience"> --- </textarea>
+								</div>
 
-								<label for="genre">Genre(s)</label>
-								<textarea id="genre" name="genre"> --- </textarea>
+								<div class="form_input">
+									<label for="genre">Genre(s)</label>
+									<textarea id="genre" name="genre"> --- </textarea>
+								</div>
 
-								<label for="city">City</label>
-								<input type="text" id="city" name="city"/>
+								<div class="form_input">
+									<label for="city">City</label>
+									<input type="text" id="city" name="city"/>
+								</div>
 
-								<label for="state">State</label>
+								<div class="form_input">
+									<label for="state">State</label>
 								    <select name="state" id="state">
     									<option value="AL">Alabama</option>
     									<option value="AK">Alaska</option>
@@ -110,11 +125,16 @@
     									<option value="WI">Wisconsin</option>
     									<option value="WY">Wyoming</option>
     								</select>
+    							</div>
 
-    							<label for="demo">Upload Demo</label>
-    							<input type="file" id="demo" name="demo">
-								
-								<input type="submit" value="Submit" name="submit" />
+    							<div class="form_input">
+    								<label for="demo">Upload Demo</label>
+    								<input type="file" id="demo" name="demo">
+								</div>
+
+								<div class="form_input">
+									<input type="submit" value="Submit" name="submit" />
+								</div>
 
 							</form>
 						</div>	<!-- end class display -->
@@ -125,25 +145,34 @@
 						<div class="display">
 							<form>
 
-								<label for="name">Name</label>
-								<input type="text" id="name" name="name" />
+								<div class="form_input">
+									<label for="name">Name</label>
+									<input type="text" id="name" name="name" />
+								</div>
 
-								<label for="email">Email Address</label>
-								<input type="email" id="eemail" name="eemail" placeholder="sample@site.com" />
+								<div class="form_input">
+									<label for="email">Email Address</label>
+									<input type="email" id="email" name="email" placeholder="sample@site.com" />
+								</div>
 
-								<label for="reason">Reason</label>
-								<select name="reason" id="reason">
-    								<option value="Order">Order Issue</option>
-    								<option value="Job">Job Position</option>
-     								<option value="Band/Demo">Band/Demo Information</option>
-        							<option value="Other">Other</option>
-        						</select>
+								<div class="form_input">
+									<label for="reason">Reason</label>
+									<select name="reason" id="reason">
+    									<option value="Order">Order Issue</option>
+    									<option value="Job">Job Position</option>
+     									<option value="Band/Demo">Band/Demo Information</option>
+        								<option value="Other">Other</option>
+        							</select>
+        						</div>
 
+        						<div class="form_input">
+									<label for="question">Question</label>
+									<textarea id="question" name="question">Ask Away! </textarea>
+								</div>
 
-								<label for="question">Question</label>
-								<textarea id="question" name="question">Ask Away! </textarea>
-
-        						<input type="submit" value="Submit" name="submit" />
+								<div class="form_input">
+        							<input type="submit" value="Submit" name="submit" />
+        						</div>
 
 							</form>
 						</div><!-- end class display -->
