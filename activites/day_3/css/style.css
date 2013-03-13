@@ -1,0 +1,47 @@
+/* -------------------------------------------------------
+		∆ Reset
+------------------------------------------------------- */
+
+
+html, body, div, form, fieldset, legend, label, h1, h2, h3, h4, h5, h6, p{
+ margin: 0;
+ padding: 0; 
+}
+
+
+/* -------------------------------------------------------
+		∆ Main
+------------------------------------------------------- */
+
+body {
+	background-color: #151515;
+	font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+	margin-bottom: 20px;
+}
+
+#wrapper, header, #main_content {
+	width: 1020px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+.divider {
+	width: auto;
+	height: 2px;
+	background-color: #151515;
+	margin: 20px 0;
+}
+
+img {
+	width: 1020px;
+	margin: 0 auto;
+}
