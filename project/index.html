@@ -3,44 +3,58 @@
 	<head>
 		<title>Home | Fat Wreck Chords</title>
 		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/skeleton.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<div id="wrapper">
+			<div class="container">
 
-			<header>
-				<div id="logo"> <h1><a href="#"> Fat Wreck Chords</a> </h1> </div>
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="news.html">News</a></li>
-						<li><a href="tours.html">Tours</a></li>
-						<li><a href="#">Records</a></li>
-						<li><a href="bandname_profile.html">Bands</a></li>
-						<li><a href="store.html">Store</a></li>
-						<li><a href="#">Media</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
+				<header>
+					<div id="logo"><a href="index.html" id="logo_img"><img src="images/logo.png"  alt="Fat Wreck Chords logo" /></a></div>
+					
+					<div id="cart">
+						<p> (0) items in cart </p>
+						<p> <a href="#">empty cart</a> | <a href="#">checkout</a> </p>
+					</div>
 
-			<div id="main_content">
-				<section> 
-					<h2>New Releases Banner</h2>
+					<form id="search">
+						<input type="search" name="search" placeholder="Search" />
+					</form>
+
+					<nav>
+						<ul>
+							<li class="current"><a href="index.html">Home</a></li>
+							<li><a href="news.html">News</a></li>
+							<li><a href="tours.html">Tours</a></li>
+							<li><a href="#">Records</a></li>
+							<li><a href="bands.html">Bands</a></li>
+							<li><a href="store.html">Store</a></li>
+							<li><a href="#">Media</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</header>
+			
+				<section id="banner"> 
+					<div id="frame">
+						<a href="#"><img src="images/home/release-ltj.jpg" class="scale-with-grid" alt="Less than Jake. Greeting &amp; Salutations. Now Available!" /></a>
+					</div>
 				</section>
 
 				<section> 
-					<div class="column">
-						<h3>Featured Band - Old Man Markley</h3>
-						<img src="http://www.fatwreck.com/artist/main_photo/99/omm250.jpg?1359662357" alt="Picture of the band Old Man Markley" />
+					<div class="one-third column">
+						<a href="#"><img src="images/home/band-omm.jpg" class="scale-with-grid" alt="Picture of the featured band, Old Man Markley." /> </a>
 					</div>
 
-					<div class="column">
-						<h3>Bands on Tour</h3>
+					<div class="one-third column">
+						<a href="#"><img src="images/home/tours-1.jpg" class="scale-with-grid" alt="Tour poster for Hits and Pits." /> <a>
 					</div>
 
-					<div class="column">
-						<h3>Up Coming Releases</h3>
+					<div class="one-third column">
+						<a href="#"><img src="images/home/upcoming-mg.jpg" class="scale-with-grid" alt="Upcoming release of the album Born to December from Morning Glory on a 3 song 7in camo vinyl. May 14th 2013."/> </a>
 					</div>
 				</section>
 
@@ -81,7 +95,7 @@
 					</article>
 
 				</section>
-			</div> <!-- end main_content -->
+			
 
 			<footer>
 				<form>
@@ -92,7 +106,7 @@
 				<p>FAT WRECK CHORDS | 2196 Palou Ave. | San Francisco, CA 94124
 Copyright &copy; Fat Wreck Chords. All rights reserved.</p>
 			</footer>
-
+		</div> <!-- end container -->
 		</div> <!-- end wrapper -->
 	</body>
 </html>

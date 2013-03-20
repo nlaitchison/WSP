@@ -1,14 +1,179 @@
 /* -------------------------------------------------------
-		∆ Reset
+
+----- Info 
+
+WSP 1303	
+Designer/Developer: Nicole Aitchison
+FatWreck.com - Fat Wreck Chords Redesign
+
+
+----- Color Swatch 
+
+header text: #f6f6f6
+normal text: #c1c1c1
+   nav text: #666
+   light bg: #1d1d1d
+    dark bg: #141414
+     orange: #ff4800
+     purple: #80005d
+       pink: #f00d48
+
+
+----- Sections
+
+∆ General
+∆ Header
+∆ Home
+∆ Bands
+∆ Footer
+∆ Fixes
+     
+-------------------------------------------------------*/
+
+
+/* -------------------------------------------------------
+		∆ General
 ------------------------------------------------------- */
 
 
-html, body, div, form, fieldset, legend, label, h1, h2, h3, h4, h5, h6, p{
- margin: 0;
- padding: 0; 
+html, body, div, form, fieldset, legend, label, h1, h2, h3, h4, h5, h6, p, ul{
+ 	margin: 0;
+ 	padding: 0; 
 }
 
+body {
+	background-color: #141414;
+	font: 12px Tahoma, sans-serif;
+	color: #c1c1c1;
+}
+
+h1, h2, li.current a, nav a, nav a:hover {
+	color: #f6f6f6;
+	font-family: 'Special Elite', serif;
+}
 
 /* -------------------------------------------------------
 		∆ Header
 ------------------------------------------------------- */
+
+
+header {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+#logo {
+	float: left;
+	padding: 35px 0 10px 0;
+	width: 160px;
+	background-color: #f00d48;
+}
+
+#logo_img {
+	display: block;
+	width: 140px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#cart {
+	float: right;
+	/*width: 800px;*/
+	text-align: right;
+}
+
+#search {
+	float: right;
+	/*width: 800px;*/
+	/*clear: both;*/
+	text-align: right;
+}
+
+nav {
+	/*clear*/: both;
+	float: right;
+	width: 760px;
+
+}
+
+nav ul {
+	list-style-type: none;
+	background-color: red;
+}
+
+nav li {
+	float: left;
+	width: 95px;
+	line-height: 39px;
+	/*height: 36px;*/
+	text-align: center;
+	border-bottom: 3px solid #f00d48;
+	background-color: #1d1d1d;
+
+}
+
+nav a {
+	display: block;
+	width: 95px;
+	height: 36px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #666; 
+}
+
+li.current {
+	border-bottom: 3px solid #ff4800;
+}
+
+/* -------------------------------------------------------
+		∆ Home
+------------------------------------------------------- */
+
+
+#banner {
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+/* -------------------------------------------------------
+		∆ Bands
+------------------------------------------------------- */
+
+
+#bands {
+	width: 960px;
+	clear: both;
+}
+
+ul#bands img {
+	border: 3px solid #f6f6f6;
+}
+
+ul#bands li {
+	margin-top: 10px;
+}
+
+
+/* -------------------------------------------------------
+		∆ Footer
+------------------------------------------------------- */
+
+footer {
+	clear: both;
+}
+
+/* -------------------------------------------------------
+		∆ Fixes
+------------------------------------------------------- */
+
+img.scale-with-grid {
+	max-width: 100%;
+	height: auto; 
+}
+
+.clear_row {
+	clear: both;
+	max-width: 100%
+}
+
