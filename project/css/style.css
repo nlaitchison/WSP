@@ -40,9 +40,13 @@ html, body, div, form, fieldset, legend, label, h1, h2, h3, h4, h5, h6, p, ul{
 }
 
 body {
-	background-color: #141414;
+	background-color: #131313;
 	font: 12px Tahoma, sans-serif;
 	color: #c1c1c1;
+}
+
+#wrapper {
+	background: url(../images/bg-wrapper.jpg) no-repeat top center;
 }
 
 h1, h2, li.current a, nav a, nav a:hover {
