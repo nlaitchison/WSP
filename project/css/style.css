@@ -52,7 +52,7 @@ body {
 	background: url(../images/bg-wrapper.jpg) no-repeat top center;
 }
 
-h1, h2, li.current a, nav a, nav a:hover {
+h1, h2, li.current a, nav a, nav a:hover, label#join_list {
 	color: #f6f6f6;
 	font-family: 'Special Elite', serif;
 }
@@ -70,17 +70,23 @@ header {
 
 #logo {
 	float: left;
-	padding: 34px 0 10px 0;
+	height: 152px;
 	/*width: 160px;*/
-	background-color: #f00d48;
+	background: #f00d48;
 	text-align: center;
+	padding: 0;
+	/*position: relative;*/
 }
 
 #logo_img {
 	display: block;
-	width: 87.5%; /* 140px */
-	height: auto;
+	width: 90%; /* 140px */
+	height: 100%;
+	/*margin: 34px auto 10px ;*/
 	margin: 0 auto;
+	background: #f00d48 url(../images/logo.png) no-repeat bottom center;
+	background-size: contain;
+	text-indent: -99999px;
 }
 
 #cart {
@@ -120,6 +126,7 @@ nav {
 	float: right;
 	/*width: 760px;*/
 
+
 }
 
 nav ul {
@@ -131,12 +138,15 @@ nav li {
 	float: left;
 	width: 12.5%; /* 95px */
 	line-height: 39px;
-	/*height: 36px;*/
-	text-align: center;
+	text-align: center;	
 	border-bottom: 3px solid #f00d48;
 	background-color: #1d1d1d;
 
 }
+
+nav li:hover {
+	border-bottom: 3px solid #ff4800;
+} 
 
 nav a {
 	display: block;
@@ -144,6 +154,7 @@ nav a {
 	height: 36px;
 	font-size: 1.14286em; /* 16px */
 	text-decoration: none;
+	text-transform: uppercase;
 	color: #666; 
 }
 
@@ -208,7 +219,7 @@ footer {
 	clear: both;
 	background: #1d1d1d;
 	margin-top: 20px;
-	padding: 20px 0;
+	padding: 20px 0 60px;
 }
 
 footer a{
@@ -216,10 +227,73 @@ footer a{
 	text-decoration: none;
 }
 
-footer ul {
+ul.footer_nav, ul.social, li ul {
 	list-style-type: none;
 }
 
+ul.social li {
+	float:left;
+	padding: 0 10px 20px 0;
+}
+
+ul.footer_nav {
+	float: right;
+	columns: 40px 2;
+	/*font-size: 15px;*/
+	/*text-transform: uppercase;*/
+}
+
+.footer_column {
+	float:left;
+	margin-top: 70px;
+}
+
+.margin_right {
+	margin-right: 40px;
+	padding-right: 40px;
+	border-right: 2px solid #222;
+}
+
+.footer_column li {
+	margin-bottom: 10px;
+}
+
+footer form {
+	clear: both;
+}
+
+label#join_list {
+	color: #f00d48;
+	font-size: 24px;
+}
+
+.mailing_list {
+	clear:both;
+	margin-top: 5px;
+}
+
+input#mailing_list {
+	width: 250px;
+	background: #262626;
+	border: 2px solid #141414;
+	margin-bottom: 10px;
+	padding: 5px;
+	font-size: 14px;
+	color: #666;
+}
+
+input#addme {
+	background: #80005d;
+	border: 2px solid #141414;
+	font-size: 14px;
+	text-transform: uppercase;
+	height: 32px;	
+	color: #f6f6f6;
+}
+
+input#addme:hover, .footer_column ul li a:hover  {
+	text-decoration: underline;
+}
 
 /* -------------------------------------------------------
 		∆ Fixes
