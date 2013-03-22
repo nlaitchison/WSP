@@ -1,8 +1,5 @@
 @media only screen and (max-width: 959px) {
 
-
-
-
 	/* --------- Home --------- */
 	#frame { margin-top: -311px;}
 
@@ -32,6 +29,15 @@
 	#featured_band { display: none;}
 	#featured_tour, #featured_release { width: 50%;}
 	#featured_tour img, #featured_release img { width: 97%; float: left;}
+
+	/* ---------- Band Profile ---------- */
+
+	#band_photo p, #merch, #videos { display: none;}
+	#records ul li {width: 100%; margin-top: 0px;}
+	#records ul li:first-child { margin-top: 15px;}
+	#records ul li img, .album_info {float: left;}
+	#records ul li img { margin-right: 15px;}
+	#records ul li p {text-align: left;}
 
 	/* ---------- Footer ---------- */
 	ul#footer_nav { float: left; margin-top: 20px;}
