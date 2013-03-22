@@ -1,0 +1,45 @@
+@media only screen and (max-width: 959px) {
+
+
+
+
+	/* --------- Home --------- */
+	#frame { margin-top: -311px;}
+
+
+
+}
+
+
+@media only screen and (max-width: 767px) {
+	
+	/* --------- Header --------- */
+	#logo { width: 25%; height: 90px; }
+	#logo_img { margin-top: 10px;}
+
+	#cart { width: 60%; margin-top: 15px; }
+	#cart a {font-size: 14px;}
+
+	#search { width: 70%; margin-top: 10px;}
+	#search input { width: 280px; height: 20px; background: #1d1d1d url(../images/search-icon.png) 260px center no-repeat; }
+
+	/*nav { width:;}*/
+	nav ul li { clear: both; width: 100%; text-align: right;}
+	nav, nav ul li { padding-right: 15px;}
+
+	/* ---------- Home ---------- */
+	#frame { margin-top: -172px;}
+
+	#featured_band { display: none;}
+	#featured_tour, #featured_release { width: 50%;}
+	#featured_tour img, #featured_release img { width: 97%; float: left;}
+
+}
+
+
+ @media only screen and (max-width: 478px) {
+
+	/* --------- Home --------- */
+	#frame { margin-top: -124px;}
+
+}

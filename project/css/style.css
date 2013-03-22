@@ -42,7 +42,7 @@ html, body, div, form, fieldset, legend, label, h1, h2, h3, h4, h5, h6, p, ul{
 
 body {
 	background-color: #131313;
-	font: 14px Tahoma, sans-serif;
+	font: 12px Tahoma, sans-serif;
 	color: #c1c1c1;
 }
 
@@ -64,12 +64,12 @@ h2 {
 	max-width: 100%;
 	background: #f00d48;
 	padding-left: 10px;
-	font: normal 24px 'Special Elite', serif;
+	font: normal 2em 'Special Elite', serif; /* 24px */
 	line-height: 40px;
 }
 
 h4 {
-	font-size: 18px;
+	font-size: 1.5em; /* 18px */
 	color: #ff4800;
 	padding: 5px 0;
 }
@@ -86,7 +86,6 @@ a:hover {
 	background: #1d1d1d;
 	padding: 15px;
 	margin-bottom: 15px; 
-	font-size: 12px;
 	line-height: 20px;
 	overflow: hidden;
 }
@@ -125,34 +124,29 @@ header {
 
 #logo {
 	float: left;
+	max-width: 100%;
 	height: 152px;
-	/*width: 160px;*/
 	background: #f00d48;
 	text-align: center;
 	padding: 0;
-	/*position: relative;*/
 }
 
 #logo_img {
 	display: block;
-	width: 90%; /* 140px */
-	height: 100%;
-	/*margin: 34px auto 10px ;*/
-	margin: 0 auto;
-	background: #f00d48 url(../images/logo.png) no-repeat bottom center;
-	background-size: contain;
-	text-indent: -99999px;
+	max-width: 100%; /* 140px */
+	padding: 0 5px;
+	margin-top: 40px;
 }
 
 #cart {
 	float: right;
 	margin: 30px 10px 0;
 	text-align: right;
-	font-size: 14px;
+	font-size: 1.16666667em; /* 14px */
 }
 
 #cart a {
-	font-size: 12px;
+	font-size: 0.85714em; /* 12px */
 	color: #80005d;
 	text-decoration: none;
 }
@@ -171,22 +165,13 @@ header {
 #search input {
 	background: #1d1d1d url(../images/search-icon.png) 175px center no-repeat;
 	border: 2px solid #0e0e0e;
-	font-size: 14px;
+	font-size: 1.16666667em; /* 14px */
 	padding: 3px;
 	color: #666;
 }
 
 nav {
-	/*clear: both;*/
 	float: right;
-	/*width: 760px;*/
-
-
-}
-
-nav ul {
-	/*float: right;*/
-	/*list-style-type: none;*/
 }
 
 nav li {
@@ -207,7 +192,7 @@ nav a {
 	display: block;
 	width: 100%;
 	height: 36px;
-	font-size: 1.14286em; /* 16px */
+	font-size: 1.35em; /* 16px */
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #666; 
@@ -224,8 +209,17 @@ li.current {
 
 
 #banner {
-	width: 940px;
+	width: 97.91666667%; /*940px */
 	margin: 10px auto;
+}
+
+#banner img {
+	max-width: 100%;
+}
+
+#frame {
+	margin-top: -388px;
+	opacity: .9;
 }
 
 #featured {
@@ -234,7 +228,7 @@ li.current {
 }
 
 .date {
-	font-size: 15px;
+	font-size: 1.25em; /* 15px */
 }
 
 .poll_input{
@@ -251,7 +245,6 @@ li.current {
 		∆ Bands
 --------------------------------------------------------------------------------------------------- */
 
-
 #bands {
 	width: 960px;
 	clear: both;
@@ -262,7 +255,6 @@ li.current {
 }
 
 #bands ul li {
-	/*margin-top: 10px;*/
 	position: relative;
 }
 
@@ -282,20 +274,10 @@ li.current {
 	font-weight: bold;
 }
 
-#frame {
-	margin-top: -388px;
-	opacity: .9;
-}
-
 
 /* ---------------------------------------------------------------------------------------------------
 		∆ Band Profile
 --------------------------------------------------------------------------------------------------- */
-
-#band_frame {
-	position: absolute;
-	top: 0px;
-}
 
 #band_photo {
 	position: relative;
@@ -309,11 +291,11 @@ li.current {
 #band_photo a p {
 	position: absolute;
 	bottom: 20px;
-	padding-right: 15px;
+	padding-right: 2.20%;
 	background: rgba(0,0,0, .5);
 	line-height: 50px;
 	width: 98%;
-	font-size: 25px ;
+	font-size: 2.2em; /* 25px */
 	text-align: right;
 }
 
@@ -327,6 +309,9 @@ ul#members li{
 	line-height: 20px;
 }
 
+#band_info{
+	float: right;
+}
 
 #band_info h4 {
 	padding: 10px 0 0;
@@ -375,7 +360,7 @@ table#tour_dates tr:first-child, table#tour_dates tr:last-child {
 	line-height: 40px;
 	width: 30.8%;
 	text-align: right;
-	font-size: 18px;
+	font-size: 1.5em; /* 18px */
 }
 
 #records ul li {
@@ -409,15 +394,12 @@ footer {
 	background: #1d1d1d;
 	margin-top: 20px;
 	padding: 20px 0 60px;
+
 }
 
 footer a{
 	color: #f6f6f6;
 	text-decoration: none;
-}
-
-ul.footer_nav, ul.social, li ul {
-	/*list-style-type: none;*/
 }
 
 ul.social li {
@@ -428,8 +410,7 @@ ul.social li {
 ul.footer_nav {
 	float: right;
 	columns: 40px 2;
-	/*font-size: 15px;*/
-	/*text-transform: uppercase;*/
+	font-size: 1.16666667em; /* 14px */
 }
 
 .footer_column {
@@ -453,7 +434,7 @@ footer form {
 
 label#join_list {
 	color: #f00d48;
-	font-size: 24px;
+	font-size: 2em; /* 24px */
 }
 
 .mailing_list {
@@ -467,14 +448,14 @@ input#mailing_list {
 	border: 2px solid #141414;
 	margin-bottom: 10px;
 	padding: 5px;
-	font-size: 14px;
+	font-size: 1.16666667em; /* 14px */
 	color: #666;
 }
 
 input#addme {
 	background: #80005d;
 	border: 2px solid #141414;
-	font-size: 14px;
+	font-size: 1.16666667em; /* 14px */
 	text-transform: uppercase;
 	height: 32px;	
 	color: #f6f6f6;
