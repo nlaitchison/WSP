@@ -50,7 +50,7 @@ body {
 	background: url(../images/bg-wrapper.jpg) no-repeat top center;
 }
 
-h1, h2, li.current a, nav a, nav a:hover, label#join_list, #band_photo a p, #merch a p {
+h1, h2, h3, li.current a, nav a, nav a:hover, label#join_list, #band_photo a p, #merch a p {
 	color: #f6f6f6;
 	font-family: 'Special Elite', serif;
 }
@@ -65,6 +65,15 @@ h2 {
 	background: #f00d48;
 	padding-left: 10px;
 	font: normal 2em 'Special Elite', serif; /* 24px */
+	line-height: 40px;
+}
+
+h3 {
+	display: block;
+	max-width: 100%;
+	background: #f00d48;
+	padding-left: 10px;
+	font-size: 1.5em; /* 18px */
 	line-height: 40px;
 }
 
