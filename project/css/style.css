@@ -231,6 +231,14 @@ li.current {
 	font-size: 1.25em; /* 15px */
 }
 
+#news { 
+	float: right;
+}
+
+.news_img img {
+	max-width: 100%;
+}
+
 .poll_input{
 	clear: both;
 	margin-bottom: 8px;
@@ -407,7 +415,7 @@ ul.social li {
 	padding: 0 10px 20px 0;
 }
 
-ul.footer_nav {
+ul#footer_nav {
 	float: right;
 	columns: 40px 2;
 	font-size: 1.16666667em; /* 14px */
