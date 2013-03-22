@@ -39,6 +39,10 @@
 	#records ul li img { margin-right: 15px;}
 	#records ul li p {text-align: left;}
 
+	/* ---------- Contact ---------- */
+
+	#ad { display: none;}
+
 	/* ---------- Footer ---------- */
 	ul#footer_nav { float: left; margin-top: 20px;}
 	ul#footer_nav li { padding-bottom: 8px;}
