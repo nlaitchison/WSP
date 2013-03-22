@@ -1,4 +1,4 @@
-/* -------------------------------------------------------
+/* ---------------------------------------------------------------------------------------------------
 
 ----- Info 
 
@@ -23,19 +23,17 @@ normal text: #c1c1c1
 ∆ Header
 ∆ Home
 ∆ Bands
+∆ Band Profile
 ∆ Footer
 ∆ Fixes
      
--------------------------------------------------------*/
+----------------------------------------------------------------------------------------------------*/
 
 
-/* -------------------------------------------------------
+/* ---------------------------------------------------------------------------------------------------
 		∆ General
-------------------------------------------------------- */
+--------------------------------------------------------------------------------------------------- */
 
-.updategit {
-
-}
 
 html, body, div, form, fieldset, legend, label, h1, h2, h3, h4, h5, h6, p, ul{
  	margin: 0;
@@ -52,15 +50,72 @@ body {
 	background: url(../images/bg-wrapper.jpg) no-repeat top center;
 }
 
-h1, h2, li.current a, nav a, nav a:hover, label#join_list {
+h1, h2, li.current a, nav a, nav a:hover, label#join_list, #band_photo a p, #merch a p {
 	color: #f6f6f6;
 	font-family: 'Special Elite', serif;
 }
 
+h1, h2, h3, h4 {
+	font-weight: normal;
+}
 
-/* -------------------------------------------------------
+h2 {
+	display: block;
+	max-width: 100%;
+	background: #f00d48;
+	padding-left: 10px;
+	font: normal 24px 'Special Elite', serif;
+	line-height: 40px;
+}
+
+h4 {
+	font-size: 18px;
+	color: #ff4800;
+	padding: 5px 0;
+}
+
+a {
+	color: #c1c1c1;
+}
+
+a:hover {
+	color: #80005d;
+}
+
+.box {
+	background: #1d1d1d;
+	padding: 15px;
+	margin-bottom: 15px; 
+	font-size: 12px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.box header {
+	margin:0;
+}
+
+.box p {
+	margin-bottom: 10px;
+}
+
+.box p:last-child {
+	margin-bottom: 0;
+}
+
+.news_img {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* ---------------------------------------------------------------------------------------------------
 		∆ Header
-------------------------------------------------------- */
+--------------------------------------------------------------------------------------------------- */
 
 
 header {
@@ -131,7 +186,7 @@ nav {
 
 nav ul {
 	/*float: right;*/
-	list-style-type: none;
+	/*list-style-type: none;*/
 }
 
 nav li {
@@ -163,20 +218,38 @@ li.current {
 }
 
 
-/* -------------------------------------------------------
+/* ---------------------------------------------------------------------------------------------------
 		∆ Home
-------------------------------------------------------- */
+--------------------------------------------------------------------------------------------------- */
 
 
 #banner {
 	width: 940px;
-	margin: 0 auto;
+	margin: 10px auto;
 }
 
+#featured {
+	margin: 20px 0;
+	overflow: hidden;
+}
 
-/* -------------------------------------------------------
+.date {
+	font-size: 15px;
+}
+
+.poll_input{
+	clear: both;
+	margin-bottom: 8px;
+}
+
+.poll_titles {
+	color: #ff4800;
+	text-transform: uppercase;
+}
+
+/* ---------------------------------------------------------------------------------------------------
 		∆ Bands
-------------------------------------------------------- */
+--------------------------------------------------------------------------------------------------- */
 
 
 #bands {
@@ -209,10 +282,126 @@ li.current {
 	font-weight: bold;
 }
 
+#frame {
+	margin-top: -388px;
+	opacity: .9;
+}
 
-/* -------------------------------------------------------
+
+/* ---------------------------------------------------------------------------------------------------
+		∆ Band Profile
+--------------------------------------------------------------------------------------------------- */
+
+#band_frame {
+	position: absolute;
+	top: 0px;
+}
+
+#band_photo {
+	position: relative;
+	margin-bottom: 15px;
+}
+
+#band_photo a {
+	display: block;
+}
+
+#band_photo a p {
+	position: absolute;
+	bottom: 20px;
+	padding-right: 15px;
+	background: rgba(0,0,0, .5);
+	line-height: 50px;
+	width: 98%;
+	font-size: 25px ;
+	text-align: right;
+}
+
+#band_photo img, #band_photo #band_frame img {
+	max-width: 100%;
+}
+
+
+ul#members li{
+	clear:both;
+	line-height: 20px;
+}
+
+
+#band_info h4 {
+	padding: 10px 0 0;
+}
+
+#band_info h4:first-child {
+	padding-top: 0;
+}
+
+#band_info p {
+	margin: 5px 0 5px 0;
+}
+ul.band_social li {
+	float:left;
+	padding: 5px 10px 0px 0;
+}
+
+table#tour_dates {
+	width: 100%;
+}
+
+table#tour_dates td.tour_date, #tour td.tour_buy {
+	width: 25%;
+}
+
+table#tour_dates td.tour_place {
+	width: 50%;
+	padding: 0 5px 0;
+}
+
+table#tour_dates tr {
+	/*padding: 15px 0;*/
+	height: 30px;
+}
+
+table#tour_dates tr:first-child, table#tour_dates tr:last-child {
+	height: auto;
+}
+
+#merch a p {
+	position: absolute;
+	bottom: 15px;
+	left: 10px;
+	padding-right: 5px;
+	background: rgba(0,0,0, .5);
+	line-height: 40px;
+	width: 30.8%;
+	text-align: right;
+	font-size: 18px;
+}
+
+#records ul li {
+	float: left;
+	width: 25%;
+	margin: 15px 0;
+	text-align: center;
+}
+
+#records .box {
+	padding: 0 15px;
+}
+
+#records img {
+	border: 2px solid #c1c1c1;
+	max-width: 100%;
+}
+
+#records p {
+	margin-bottom: 0px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------
 		∆ Footer
-------------------------------------------------------- */
+--------------------------------------------------------------------------------------------------- */
 
 
 footer {
@@ -228,7 +417,7 @@ footer a{
 }
 
 ul.footer_nav, ul.social, li ul {
-	list-style-type: none;
+	/*list-style-type: none;*/
 }
 
 ul.social li {
@@ -295,14 +484,18 @@ input#addme:hover, .footer_column ul li a:hover  {
 	text-decoration: underline;
 }
 
-/* -------------------------------------------------------
+/* ---------------------------------------------------------------------------------------------------
 		∆ Fixes
-------------------------------------------------------- */
+--------------------------------------------------------------------------------------------------- */
 
 
-img.scale-with-grid {
+/*img.scale-with-grid {*/
 	max-width: 100%;
 	height: auto; 
+}
+
+img {
+	max-width: 100%;
 }
 
 #logo img {
