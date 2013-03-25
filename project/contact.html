@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Home | Fat Wreck Chords</title>
+		<title>Contact | Fat Wreck Chords | Submit demos &amp; ask questions</title>
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" type="text/css" href="css/skeleton.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/queries.css">
-		<meta name="viewport" content="width=device-width">
-
 		<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
-	</head>
+		
+		<link rel="stylesheet" href="meanmenu/meanmenu.css" media="all" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script> 
+   	    <script src="meanmenu/jquery.meanmenu.js"></script> 
+   	    <script>
+			jQuery(document).ready(function () {
+    			jQuery('nav').meanmenu();
+			});
+		</script>
 	<body>
 		<div id="wrapper">
 			<div class="container">
@@ -26,18 +33,20 @@
 						<input type="search" name="search" placeholder="Search" />
 					</form>
 
-					<nav>
-						<ul class="thirteen columns">
-							<li class="current"><a href="index.html">Home</a></li>
-							<li><a href="news.html">News</a></li>
-							<li><a href="#">Tours</a></li>
-							<li><a href="#">Records</a></li>
-							<li><a href="bands.html">Bands</a></li>
-							<li><a href="store.html">Store</a></li>
-							<li><a href="#">Media</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</nav>
+					<div id="menu">
+						<nav>
+							<ul class="thirteen columns">
+								<li ><a href="index.html">Home</a></li>
+								<li><a href="news.html">News</a></li>
+								<li><a href="#">Tours</a></li>
+								<li><a href="#">Records</a></li>
+								<li><a href="bands.html">Bands</a></li>
+								<li><a href="store.html">Store</a></li>
+								<li><a href="#">Media</a></li>
+								<li class="current"><a href="contact.html">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
 
 				</header>
 
