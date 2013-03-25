@@ -3,12 +3,21 @@
 	<head>
 		<title>Home | Fat Wreck Chords</title>
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" type="text/css" href="css/skeleton.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/queries.css">
-		<meta name="viewport" content="width=device-width">
-
 		<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" href="meanmenu/meanmenu.css" media="all" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script> 
+   	    <script src="meanmenu/jquery.meanmenu.js"></script> 
+   	    <script>
+			jQuery(document).ready(function () {
+    			jQuery('nav').meanmenu();
+			});
+		</script>
+		
 	</head>
 	<body>
 		<div id="wrapper">
@@ -26,6 +35,7 @@
 						<input type="search" name="search" placeholder="Search" />
 					</form>
 
+					<div id="menu">
 					<nav>
 						<ul class="thirteen columns">
 							<li class="current"><a href="index.html">Home</a></li>
@@ -38,7 +48,8 @@
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav>
-
+					</div>
+					
 				</header>
 			
 				<section id="banner"> 

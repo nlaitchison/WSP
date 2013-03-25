@@ -11,7 +11,8 @@
 @media only screen and (max-width: 767px) {
 	
 	/* --------- Header --------- */
-	#logo { width: 25%; height: 90px; }
+	/*header { padding-top: 200px;}*/
+	#logo { width: 25%; height: 90px; margin-bottom: 20px;}
 	#logo_img { margin-top: 10px;}
 
 	#cart { width: 60%; margin-top: 10px; }
@@ -20,7 +21,7 @@
 	#search { width: 70%; margin-top: 10px;}
 	#search input { width: 280px; height: 25px; background: #1d1d1d url(../images/search-icon.png) 260px center no-repeat; }
 
-	nav ul li { clear: both; width: 100%; text-align: right;}
+	nav ul li { clear: both; width: 100%; text-align: right; padding-right: 10px;}
 	nav, nav ul li { padding-right: 15px;}
 
 	/* ---------- Home ---------- */
