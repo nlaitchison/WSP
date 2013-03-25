@@ -54,7 +54,7 @@
 
 					<div class="eight columns">
 						<h2>Submit A Demo</h2>
-						<div class="box">
+						<div class="box contact">
 							<form class="form_contact">
 
 								<fieldset>
@@ -77,18 +77,18 @@
 								<fieldset>
 									<div class="form_input">
 										<label>Label Status</label>
-										<label for="unsigned"><input type="radio" id="unsigned" name="unsigned" /> Unsigned </label>
-										<label for="signed"><input type="radio" id="signed" name="signed" /> Signed </label>
+										<label class="radio" for="unsigned"><input type="radio" id="unsigned" name="unsigned" /> Unsigned </label>
+										<label class="radio" for="signed"><input type="radio" id="signed" name="signed" /> Signed </label>
 									</div>
 
 									<div class="form_input">
 										<label for="experience">Experience</label>
-										<textarea id="experience" name="experience"> --- </textarea>
+										<input type="text" id="experience" name="experience" placeholder="Tell us about your band. Do you have touring experience? How many shows how you played?  "> 
 									</div>
 
 									<div class="form_input">
 										<label for="genre">Genre(s)</label>
-										<textarea id="genre" name="genre"> --- </textarea>
+										<input type="text" id="genre" name="genre">
 									</div>
 								</fieldset>
 
@@ -172,7 +172,7 @@
 
 					<div class="eight columns">
 						<h2>Ask A Question</h2>
-						<div class="box">
+						<div class="box contact">
 							<form class="form_contact">
 
 								<fieldset>
@@ -200,7 +200,7 @@
 
        		 						<div class="form_input">
 										<label for="question">Question</label>
-										<textarea id="question" name="question">Ask Away! </textarea>
+										<input type="text" id="question" name="question" placeholder="Ask us anything." size="100px">
 									</div>
 
 									<div class="form_input">
@@ -213,19 +213,18 @@
 					</div> <!-- end class form_section -->
 
 				</section>
-
-				<aside class="one-third column">
-
-					<div id="ad">
-						<a href="#"><img src="#" alt="Advertisement"></a>
-						<a href="#"><img src="#" alt="Advertisement"></a>
-					</div>
-
-				</aside>
+				
+				<div id="ad">
+					<aside class="one-third column">
+						<a href="#"><img src="images/home/tours-1.jpg" alt="Advertisement"></a>
+						<a href="#"><img src="images/home/upcoming-mg.jpg" alt="Advertisement"></a>
+					</aside>
+				</div>
 
 				<section class="two-thirds column"> 
 
-					<h2> Frequently Asked Question </h2>
+					<h2 class="hide"> Frequently Asked Question </h2>
+					<h2 class="faq"> F.A.Q </h2>
 					<div class="box">
 					<dl> 
 						<dt> I’ve heard there’s some REALLY beautiful women and men that work at Fat Wreck Chords. How do I contact the label? </dt>
