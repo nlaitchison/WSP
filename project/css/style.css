@@ -823,6 +823,7 @@ img {
 	/* --------- Header --------- */
 
 	nav { float:right; }
+	nav li { width: 12.5%; /* 95px */ }
 
 	/* --------- Home --------- */
 

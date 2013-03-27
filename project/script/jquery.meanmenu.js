@@ -113,6 +113,8 @@
             function meanOriginal() {
             	jQuery('.mean-bar,.mean-push').remove();
             	jQuery('#menu').removeClass("mean-container");
+                jQuery('nav ul').removeClass("sixteen columns");
+                jQuery('nav ul').addClass("thirteen columns");
             	jQuery(meanMenu).show();
             	menuOn = false;
             	meanMenuExist = false;
