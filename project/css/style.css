@@ -28,8 +28,12 @@ normal text: #c1c1c1
 ∆ Contact
 ∆ Footer
 ∆ Fixes
+∆ Queries
+∆ JS Banner
      
 ----------------------------------------------------------------------------------------------------*/
+
+
 
 
 /* ---------------------------------------------------------------------------------------------------
@@ -121,6 +125,7 @@ a:hover {
 ul {
 	list-style-type: none;
 }
+
 
 /* ---------------------------------------------------------------------------------------------------
 		∆ Header
@@ -232,7 +237,7 @@ li.current {
 }
 
 #frame {
-	margin-top: -388px;
+	margin-top: -384px;
 	opacity: .9;
 }
 
@@ -263,6 +268,25 @@ li.current {
 	text-transform: uppercase;
 }
 
+.more {
+	background: #80005d;
+	border: 2px solid #141414;	
+	width: 19%;
+	text-align: center;
+}
+
+.more a {
+	color: #f6f6f6;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.16666667em; /* 14px */
+	line-height: 32px;
+}
+
+.more a:hover {
+	text-decoration: underline;
+}
+
 
 /* ---------------------------------------------------------------------------------------------------
 		∆ News
@@ -289,16 +313,8 @@ dd:last-child {
 --------------------------------------------------------------------------------------------------- */
 
 
-#bands.sixteen.columns {
-	/*margin: 0 0 0 5px;*/
-	/*width: 960px;*/
-	/*clear: both;*/
-}
-
 #bands.sixteen.columns ul li.four.columns {
 	margin: 5px 10px;
-	/*margin: 0;*/
-	/*height: 100%; */
 }
 
 #bands.sixteen.columns ul .bands_row li.four.columns:first-child {
@@ -307,26 +323,6 @@ dd:last-child {
 
 #bands.sixteen.columns ul .bands_row li.four.columns:last-child {
 	margin-right: 0px;
-}
-
-#bands.sixteen.columns ul li.four.columns:nth-child(4n+1) {
-	/*margin-left: 0;*/
-}
-
-}#bands.sixteen.columns ul li.four.columns:nth-child(1) {
-	/*margin-left: 0;*/
-	/*margin-right: 10px;*/
-}
-
-#bands.sixteen.columns ul li.four.columns:nth-child(3n+1) {
-	/*margin-right: 0;*/
-}
-
-
-
-#bands ul img {
-	/*border: 3px solid #f6f6f6;*/
-	/*max-width: 100%;*/
 }
 
 #bands ul li {
@@ -353,11 +349,15 @@ dd:last-child {
 #bands figure img {
 	width: 100%;
 	border: 3px solid #f6f6f6;
+	height: 160px;
+}
+
+#bands figure img:hover {
+	cursor: pointer;
 }
 
 figure {
-	position: relative;
-	
+	position: relative;	
 	width: 100%;
 }
 
@@ -371,6 +371,10 @@ figcaption {
 	line-height: 30px;
 	max-width: 100%;
 	font-weight: bold;
+}
+
+figcaption:hover {
+	text-decoration: underline;
 }
 
 
@@ -443,7 +447,6 @@ table#tour_dates td.tour_place {
 }
 
 table#tour_dates tr {
-	/*padding: 15px 0;*/
 	height: 30px;
 }
 
@@ -573,7 +576,6 @@ table#tour_dates tr:first-child, table#tour_dates tr:last-child {
 	display: block;
 	float: left;
 	text-align: right;
-	/*width: 18%; /* 80px */
 	width: 80px;
 	padding-right: 10px;
 	line-height: 26px;
@@ -582,7 +584,6 @@ table#tour_dates tr:first-child, table#tour_dates tr:last-child {
 .form_input input {
 	background: #1d1d1d;
 	border: 2px solid #0e0e0e;
-	/*font-size: 1.16666667em; /* 14px */
 	padding: 5px;
 	color: #666;
 	float: left;
@@ -708,15 +709,11 @@ input#addme:hover, .footer_column ul li a:hover  {
 	text-decoration: underline;
 }
 
+
 /* ---------------------------------------------------------------------------------------------------
 		∆ Fixes
 --------------------------------------------------------------------------------------------------- */
 
-
-/*img.scale-with-grid {*/
-	max-width: 100%;
-	height: auto; 
-}
 
 img {
 	max-width: 100%;
@@ -729,4 +726,252 @@ img {
 .clear_fix{
 	clear: both;
 }
+
+
+/* ---------------------------------------------------------------------------------------------------
+		∆ JS Banner
+--------------------------------------------------------------------------------------------------- */
+
+
+#jqb_object img{ 
+	border: none;
+	max-width: 100%;
+}
+
+#jqb_object { 
+	position:relative;
+	max-width: 100%; /*939px*/
+	height:384px; 
+	/*height: 100%;*/
+	overflow:hidden;
+}
+.jpb_display_none {
+	display:none;
+}
+
+#jqb_object .jqb_bar{
+	position:absolute;
+	width:905px; 
+	/*height: 30px;*/
+	height: 100%;
+	left:0px;
+	bottom:0px;
+	background:#000000;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	
+	color: #ffffff;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: -1px;
+}
+
+#jqb_object .jqb_slide{
+	position:absolute;
+	width: 100%; /*940px */
+	/*height: 100%;*/
+	height:384px; 
+	font-family: Arial, Verdana, Sans-Serif;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: -1px;
+	text-align: left;
+}
+
+#jqb_object .jqb_info{
+	position:absolute;
+	padding: 2px 10px 2px 10px;
+	float: left;
+}
+
+#jqb_object .jqb_btn{
+	width: 15px; height: 14px;
+	margin: 10px 5px 2px 2px;
+	float: right;
+}
+#jqb_object .jqb_btn_next{
+	background-image:url(img/btn_next.gif);
+}
+
+#jqb_object .jqb_btn_prev{
+	background-image:url(img/btn_prev.gif);
+}
+
+#jqb_object .jqb_btn_pause{
+	background-image:url(img/btn_stop.gif);
+}
+
+#jqb_object .jqb_btn_play{
+	background-image:url(img/btn_play.gif);
+}
+
+
+/* ---------------------------------------------------------------------------------------------------
+		
+		 ∆ Queries
+
+--------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------------------------------
+		∆ 959px
+--------------------------------------------------------------------------------------------------- */
+
+
+@media only screen and (max-width: 959px) {
+
+	/* --------- Header --------- */
+
+	nav { float:right; }
+
+	/* --------- Home --------- */
+
+	#frame { margin-top: -310px;}
+
+	#jqb_object, #jqb_object .jqb_slides, #jqb_object .jqb_slide { height: 309px;}
+
+	/* ---------- Contact ---------- */
+
+	.box.contact { min-height: 390px;}
+
+	.form_input input, .form_input input#experience, .form_input input#genre, .form_input input#question 
+	{ width: 68%;}
+
+	.form_input input#unsigned, .form_input input#signed 
+	{width: 30%;}
+
+	/* ---------- Bands ---------- */
+
+	#bands figure img { height: 125px; }
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------
+		∆ 767px
+--------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+	
+	/* --------- Header --------- */
+
+	#logo { width: 25%; height: 90px;;}
+	#logo_img { margin-top: 10px;}
+
+	#cart { width: 60%; margin-top: 10px; }
+	#cart a {font-size: 14px;}
+
+	#search { width: 70%; margin-top: 10px;}
+	#search input { width: 280px; height: 25px; background: #1d1d1d url(../images/search-icon.png) 260px center no-repeat; margin-bottom: 10px;}
+
+	nav ul li { clear: both; width: 100%; text-align: right; padding-right: 10px;}
+	nav, nav ul li { padding-right: 15px;}
+
+	/* ---------- Home ---------- */
+
+	#frame { margin-top: -169px;}
+
+	#featured_band { display: none;}
+	#featured_tour, #featured_release { width: 50%;}
+	#featured_tour img, #featured_release img { width: 97%; float: left;}
+
+	#jqb_object, #jqb_object .jqb_slides, #jqb_object .jqb_slide { height: 169px;}
+
+	/* ---------- Bands ---------- */
+
+	#bands.sixteen.columns ul li.four.columns { width: 47%;}
+
+	#bands.sixteen.columns ul .bands_row li.four.columns:nth-child(2n) 
+	{margin-right: 0px;}
+
+	#bands.sixteen.columns ul .bands_row li.four.columns:nth-child(3n) 
+	{margin-left: 0px;}
+
+	#bands figure img { height: 144px; }
+
+	/* ---------- Band Profile ---------- */
+
+	#band_photo p, #merch, #videos { display: none;}
+	#records ul li {width: 100%; margin-top: 0px;}
+	#records ul li:first-child { margin-top: 15px;}
+	#records ul li img, .album_info {float: left;}
+	#records ul li img { margin-right: 15px;}
+	#records ul li p {text-align: left;}
+
+	/* ---------- Store ---------- */
+
+	#browse ul li {font-size: 14px; line-height: 26px;}
+	#sale img, #new_records img, #new_products img, #sale p, #new_records p, #new_products p { float: left;}
+	#sale p, #new_records p, #new_products p { margin-left: 10px;}
+
+	/* ---------- Contact ---------- */
+
+	.box.contact { min-height: auto;}
+	#ad {display: none;}
+	.form_input input[type=submit] { margin-left: 0; width: 100%; line-height: 40px; height: auto; }
+
+	/* ---------- Footer ---------- */
+
+	ul#footer_nav { float: left; margin-top: 20px;}
+	ul#footer_nav li { padding-bottom: 8px;}
+	.footer_column { margin-top: 0;}
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------
+		∆ 478px
+--------------------------------------------------------------------------------------------------- */
+
+
+ @media only screen and (max-width: 478px) {
+
+ 	/* --------- Header --------- */
+
+	#logo { width: 32%; height: 82px; }
+	#logo_img { margin-top: 10px;}
+
+	#cart { width: 60%; margin-top: 45px; }
+	#cart a {font-size: 14px;}
+
+	#search { width: 100%; margin: 10px auto;}
+	#search input { width: 96%; height: 25px; background: #1d1d1d url(../images/search-icon.png) 260px center no-repeat; }
+
+	/* --------- Home --------- */
+
+	#frame { margin-top: -121px;}
+
+	#jqb_object, #jqb_object .jqb_slides, #jqb_object .jqb_slide { height: 121px;}
+
+	/* ---------- Bands ----------- */
+
+	#bands.sixteen.columns ul li.four.columns { width: 46%;}
+
+	#bands figure img { height: 102px; }
+
+	/* ---------- Contact ---------- */
+
+	 .form_input input[type=submit] { margin-left: 0; width: 100%; line-height: 40px; height: auto; }
+
+	 .form_input input, .form_input input#experience, .form_input input#genre, .form_input input#question 
+	 {clear: both; width: 92%; padding: 8px;}
+
+	 .form_input select#state, .form_input label.radio { clear: both;}
+
+	 .form_input label {text-align: left;}
+
+	 h2.hide {display: none;}
+
+	 h2.faq {display: block;}
+
+	/* ---------- Footer ---------- */
+
+	footer p { clear: both;}
+	form#mailing {display: none;}
+
+}
+
+
+
+
 

@@ -1,7 +1,19 @@
+/* ---------------------------------------------------------------------------------------------------
+		∆ 959px
+--------------------------------------------------------------------------------------------------- */
+
+
 @media only screen and (max-width: 959px) {
 
+	/* --------- Header --------- */
+
+	nav { float:right; }
+
 	/* --------- Home --------- */
+
 	#frame { margin-top: -310px;}
+
+	#jqb_object, #jqb_object .jqb_slides, #jqb_object .jqb_slide { height: 309px;}
 
 	/* ---------- Contact ---------- */
 
@@ -15,10 +27,15 @@
 
 }
 
+
+/* ---------------------------------------------------------------------------------------------------
+		∆ 767px
+--------------------------------------------------------------------------------------------------- */
+
 @media only screen and (max-width: 767px) {
 	
 	/* --------- Header --------- */
-	/*header { padding-top: 200px;}*/
+
 	#logo { width: 25%; height: 90px;;}
 	#logo_img { margin-top: 10px;}
 
@@ -32,11 +49,14 @@
 	nav, nav ul li { padding-right: 15px;}
 
 	/* ---------- Home ---------- */
-	#frame { margin-top: -171px;}
+
+	#frame { margin-top: -169px;}
 
 	#featured_band { display: none;}
 	#featured_tour, #featured_release { width: 50%;}
 	#featured_tour img, #featured_release img { width: 97%; float: left;}
+
+	#jqb_object, #jqb_object .jqb_slides, #jqb_object .jqb_slide { height: 169px;}
 
 	/* ---------- Bands ---------- */
 
@@ -60,9 +80,7 @@
 	/* ---------- Store ---------- */
 
 	#browse ul li {font-size: 14px; line-height: 26px;}
-
 	#sale img, #new_records img, #new_products img, #sale p, #new_records p, #new_products p { float: left;}
-
 	#sale p, #new_records p, #new_products p { margin-left: 10px;}
 
 	/* ---------- Contact ---------- */
@@ -72,18 +90,23 @@
 	.form_input input[type=submit] { margin-left: 0; width: 100%; line-height: 40px; height: auto; }
 
 	/* ---------- Footer ---------- */
+
 	ul#footer_nav { float: left; margin-top: 20px;}
 	ul#footer_nav li { padding-bottom: 8px;}
 	.footer_column { margin-top: 0;}
-	/*.margin_right { padding-right: 0px; margin-right: 0px; border: none;}*/
 
 }
 
+
+/* ---------------------------------------------------------------------------------------------------
+		∆ 478
+--------------------------------------------------------------------------------------------------- */
 
 
  @media only screen and (max-width: 478px) {
 
  	/* --------- Header --------- */
+
 	#logo { width: 32%; height: 82px; }
 	#logo_img { margin-top: 10px;}
 
@@ -94,12 +117,14 @@
 	#search input { width: 96%; height: 25px; background: #1d1d1d url(../images/search-icon.png) 260px center no-repeat; }
 
 	/* --------- Home --------- */
-	#frame { margin-top: -123px;}
+
+	#frame { margin-top: -121px;}
+
+	#jqb_object, #jqb_object .jqb_slides, #jqb_object .jqb_slide { height: 121px;}
 
 	/* ---------- Bands ----------- */
 
 	#bands.sixteen.columns ul li.four.columns { width: 46%;}
-
 
 	/* ---------- Contact ---------- */
 
@@ -117,6 +142,7 @@
 	 h2.faq {display: block;}
 
 	/* ---------- Footer ---------- */
+
 	footer p { clear: both;}
 	form#mailing {display: none;}
 
