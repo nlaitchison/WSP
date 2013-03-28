@@ -307,6 +307,12 @@ dd:last-child {
 	padding-bottom: 0;
 }
 
+.news_video {
+
+	width: 100%; 
+	height: 315px;
+}
+
 
 /* ---------------------------------------------------------------------------------------------------
 		∆ Bands
@@ -696,7 +702,7 @@ input#mailing_list {
 	color: #666;
 }
 
-input#addme {
+input#addme, input#vote {
 	background: #80005d;
 	border: 2px solid #141414;
 	font-size: 1.16666667em; /* 14px */
@@ -830,6 +836,14 @@ img {
 	#frame { margin-top: -310px;}
 
 	#jqb_object, #jqb_object .jqb_slides, #jqb_object .jqb_slide { height: 309px;}
+	
+	/* ---------- Bands ---------- */
+
+	#bands figure img { height: 125px; }
+
+	/* ---------- Store ---------- */
+
+	.box.item {min-height: 179px;}
 
 	/* ---------- Contact ---------- */
 
@@ -840,10 +854,6 @@ img {
 
 	.form_input input#unsigned, .form_input input#signed 
 	{width: 30%;}
-
-	/* ---------- Bands ---------- */
-
-	#bands figure img { height: 125px; }
 
 }
 
@@ -862,7 +872,7 @@ img {
 	#cart { width: 60%; margin-top: 10px; }
 	#cart a {font-size: 14px;}
 
-	#search { width: 70%; margin-top: 10px;}
+	#search { width: 70%; margin-top: 10px; }
 	#search input { width: 280px; height: 25px; background: #1d1d1d url(../images/search-icon.png) 260px center no-repeat; margin-bottom: 10px;}
 
 	nav ul li { clear: both; width: 100%; text-align: right; padding: 8px 0;}
@@ -901,8 +911,10 @@ img {
 	/* ---------- Store ---------- */
 
 	#browse ul li {font-size: 14px; line-height: 26px;}
+
+	.box.item {min-height: 132px;}
 	#sale img, #new_records img, #new_products img, #sale p, #new_records p, #new_products p { float: left;}
-	#sale p, #new_records p, #new_products p { margin-left: 10px;}
+	#sale p, #new_records p, #new_products p { margin-left: 10px; text-align: left;}
 
 	/* ---------- Contact ---------- */
 
@@ -934,14 +946,18 @@ img {
 	#cart { width: 60%; margin-top: 45px; }
 	#cart a {font-size: 14px;}
 
-	#search { width: 100%; margin: 10px auto;}
-	#search input { padding-left: 8px; width: 94%; height: 30px; background: #1d1d1d url(../images/search-icon.png) 265px center no-repeat; }
+	#search { width: 100%; /*margin: 10px auto;*/ margin: 10px 0;}
+	#search input { padding-left: 3%; width: 94%; height: 34px; /*line-height: 40px;*/  background: #1d1d1d url(../images/search-icon.png) 265px center no-repeat; }
 
 	/* --------- Home --------- */
 
 	#frame { margin-top: -121px;}
 
 	#jqb_object, #jqb_object .jqb_slides, #jqb_object .jqb_slide { height: 121px;}
+
+	.more, input#vote { width: 100%}
+
+
 
 	/* ---------- Bands ----------- */
 
