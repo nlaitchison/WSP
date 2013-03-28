@@ -34,7 +34,7 @@ border-top: 3px solid #80005d;
 border-bottom: 3px solid #80005d;
 }
 .mean-container a.meanmenu-reveal {
-width: 100%;
+width: 93%;
 /*height: 22px;*/
 padding: 10px; /*10px 8px 10px*/
 /*position: absolute;*/
@@ -46,7 +46,7 @@ text-decoration: none;
 font-size: 18px;
 text-align: center;
 /*text-indent: -9999em;*/
-line-height: 22px;
+line-height: 28px;
 /*font-size: 1px;*/
 display: block;
 font-family: 'Special Elite', sans-serif;
