@@ -836,6 +836,8 @@ img {
 	#frame { margin-top: -310px;}
 
 	#jqb_object, #jqb_object .jqb_slides, #jqb_object .jqb_slide { height: 309px;}
+
+	#music {height: 115px;}
 	
 	/* ---------- Bands ---------- */
 
@@ -886,6 +888,10 @@ img {
 	#featured_tour img, #featured_release img { width: 97%; float: left;}
 
 	#jqb_object, #jqb_object .jqb_slides, #jqb_object .jqb_slide { height: 169px;}
+
+	#player {display: none;}
+
+	.more, input#vote { width: 100%}
 
 	/* ---------- Bands ---------- */
 
@@ -955,7 +961,7 @@ img {
 
 	#jqb_object, #jqb_object .jqb_slides, #jqb_object .jqb_slide { height: 121px;}
 
-	.more, input#vote { width: 100%}
+	
 
 
 
