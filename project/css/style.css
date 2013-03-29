@@ -427,6 +427,10 @@ ul#members li {
 	padding-top: 0;
 }
 
+#band_info ul {
+	margin: 5px 0 5px 0;
+}
+
 #band_info p {
 	margin: 5px 0 5px 0;
 }
