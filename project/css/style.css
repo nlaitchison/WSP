@@ -605,6 +605,7 @@ table#tour_dates tr:first-child,table#tour_dates tr:last-child {
 .form_input input#unsigned,.form_input input#signed {
 	height: 18px;
 	margin: 3px 0;
+	border: 0;
 }
 
 .form_input label.radio {
