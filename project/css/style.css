@@ -595,6 +595,7 @@ table#tour_dates tr:first-child,table#tour_dates tr:last-child {
 	color: #f6f6f6;
 	width: 19%;
 	margin: 10px 0 0 85px;
+	-webkit-appearance: none;
 }
 
 .form_input input#experience,.form_input input#genre,.form_input input#question {
