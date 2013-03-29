@@ -719,6 +719,10 @@ ul#footer_nav {
 	border-right: 2px solid #222;
 }
 
+.margin_left {
+	padding-left: 15px;
+}
+
 .footer_column li {
 	margin-bottom: 10px;
 }
@@ -766,12 +770,9 @@ input#addme:hover,.footer_column ul li a:hover {
 		∆ Fixes
 ---------------------------------------------------------------------------------------------------*/
 
+a img { border: 0;}
 
 img {
-	max-width: 100%;
-}
-
-#logo img {
 	max-width: 100%;
 }
 
@@ -956,8 +957,9 @@ img {
 
 	/* ----------Footer ----------*/
 	ul#footer_nav { float: left; margin-top: 20px; }
-	ul#footer_nav li { padding-bottom: 8px; }
+	ul#footer_nav li { padding-bottom: 8px; padding-right: 30px; }
 	.footer_column { margin-top: 0; }
+	ul#footer_nav li.footer_column.margin-right { padding-right: 10px;}
 
 }
 
