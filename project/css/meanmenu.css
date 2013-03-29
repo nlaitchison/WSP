@@ -1,133 +1,110 @@
-
-
+/* Try it out. Click the Prefixize button. */
 /* #######################################################################
 
-	meanMenu
-	--------
-	
-	To be used with jquery.meanmenu.js by Chris Wharton (http://www.meanthemes.com/plugins/meanmenu/)
+meanMenu
+--------
+
+To be used with jquery.meanmenu.js by Chris Wharton (http://www.meanthemes.com/plugins/meanmenu/)
 
 ####################################################################### */
-
 /* hide the link until viewport size is reached */
 a.meanmenu-reveal {
-display: none;
+	display: none;
 }
 
 /* when under viewport size, .mean-container is added to body */
-
 #menu.mean-container {
 	clear: both;
-	/*height: auto;*/
 }
 
-.mean-container .mean-bar { 
-/*float: left;*/
-width: 100%;
-/*top: 110px;*/
-/*position: relative;*/
-background: #1d1d1d;
-padding: 0;
-/*min-height: 33px;*/
-/*z-index: 999999;*/
-border-top: 3px solid #80005d;
-border-bottom: 3px solid #80005d;
+.mean-container .mean-bar {
+	width: 100%;
+	background: #1d1d1d;
+	padding: 0;
+	border-top: 3px solid #80005d;
+	border-bottom: 3px solid #80005d;
 }
+
 .mean-container a.meanmenu-reveal {
-width: 93%;
-/*height: 22px;*/
-padding: 10px; /*10px 8px 10px*/
-/*position: absolute;*/
-/*top: 0;*/
-/*right: 0;*/
-cursor: pointer;
-color: #c1c1c1;
-text-decoration: none;
-font-size: 18px;
-text-align: center;
-/*text-indent: -9999em;*/
-line-height: 28px;
-/*font-size: 1px;*/
-display: block;
-font-family: 'Special Elite', sans-serif;
-/*font-weight: 700;*/
-}
-.mean-container a.meanmenu-reveal span {
-display: block;
-background: #f6f6f6;
-height: 3px;
-margin-top: 3px;
-}
-.mean-container .mean-nav { 
-/*float: left;*/
-width: 100%;
-height: auto;
-padding: 0;
-/*background: #0c1923;*/
-margin-top: 3px;
-}
-.mean-container .mean-nav ul {
-padding: 0;
-margin: 0;
-width: 100%;
-list-style-type: none;
-}
-.mean-container .mean-nav ul li a {
-display: block;
-float: left;
-width: 97%;
-padding: 5px 5% 0 0;
-margin: 0;
-/*text-align: left;*/
-/*color: #fff;*/
-/*border-top: 1px solid #383838;*/
-/*border-top: 1px solid rgba(255,255,255,0.5);*/
-/*text-decoration: none;*/
-/*text-transform: uppercase;*/
-}
-.mean-container .mean-nav ul li:first-child a { 
-border: none; 
-}
-.mean-container .mean-nav ul li li a {
-width: 80%;
-padding: 1em 10%;
-/*border-top: 1px solid #f1f1f1;*/
-/*border-top: 1px solid rgba(255,255,255,0.25);*/
-opacity: 0.75; 
-filter: alpha(opacity=75);
-text-shadow: none !important;
-visibility: visible;
-}
-.mean-container .mean-nav ul li li li a {
-width: 70%;
-padding: 1em 15%;
-}
-.mean-container .mean-nav ul li li li li a {
-width: 60%;
-padding: 1em 20%;
-}
-.mean-container .mean-nav ul li li li li li a {
-width: 50%;
-padding: 1em 25%;
-}
-.mean-container .mean-nav ul li li:first-child a {
-/*border-top: 1px solid #f1f1f1;*/
-/*border-top: 1px solid rgba(255,255,255,0.25);*/
+	width: 93%;
+	padding: 10px; /*10px 8px 10px*/
+	cursor: pointer;
+	color: #c1c1c1;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	line-height: 28px;
+	display: block;
+	font-family: 'Special Elite', sans-serif;
 }
 
-.mean-container .mean-nav ul li a:hover { 
-/*background: #252525;*/
-/*background: rgba(255,255,255,0.1); */
+.mean-container a.meanmenu-reveal span {
+	display: block;
+	background: #f6f6f6;
+	height: 3px;
+	margin-top: 3px;
 }
-.mean-container .mean-push { 
-/*float: left;*/
-width: 100%;
-padding: 0;
-margin: 0;
-clear: both; 
+
+.mean-container .mean-nav {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin-top: 3px;
 }
+
+.mean-container .mean-nav ul {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	list-style-type: none;
+}
+
+.mean-container .mean-nav ul li a {
+	display: block;
+	float: left;
+	width: 97%;
+	padding: 5px 5% 0 0;
+	margin: 0;
+}
+
+.mean-container .mean-nav ul li:first-child a {
+	border: none;
+}
+
+.mean-container .mean-nav ul li li a {
+	width: 80%;
+	padding: 1em 10%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	filter: alpha(opacity=75);
+	opacity: 0.75;
+	text-shadow: none !important;
+	visibility: visible;
+}
+
+.mean-container .mean-nav ul li li li a {
+	width: 70%;
+	padding: 1em 15%;
+}
+
+.mean-container .mean-nav ul li li li li a {
+	width: 60%;
+	padding: 1em 20%;
+}
+
+.mean-container .mean-nav ul li li li li li a {
+	width: 50%;
+	padding: 1em 25%;
+}
+
+.mean-container .mean-push {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	clear: both;
+}
+
 .mean-nav .wrapper {
-width: 100%;
-padding: 0;
-margin: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
 }

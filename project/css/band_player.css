@@ -24,15 +24,9 @@
     position: relative;
     float: left;
     background: #333 url(../images/music_player/album-cover-bg.jpg) no-repeat 0 0 scroll;;
-    /*box-shadow: 0px 1px 4px rgba(0, 0, 0, .75);*/
-    /*-moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, .75);*/
-    /*-webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, .75);*/
 }
 
 .ttw-music-player .album-cover .img {
-    /*box-shadow: inset 0 0 1px rgba(255, 255, 255, .6);*/
-    /*-moz-box-shadow: inset 0 0 1px rgba(255, 255, 255, .6);*/
-    /*-webkit-box-shadow: inset 0 0 1px rgba(255, 255, 255, .6);*/
     background-position:center center;
     background-repeat:no-repeat;
     background-color:transparent;
@@ -75,12 +69,10 @@
 
 .ttw-music-player .track-info p {
     margin: 0 0 4px 0;
-    /*display: none;*/
 }
 
 .ttw-music-player .player .title {
     color: #c1c1c1;
-    /*text-shadow: 0 1px 1px rgba(0, 0, 0, .8);*/
     font-family: tahoma, arial, sans-serif;
     font-weight: normal;
     text-transform: uppercase;
@@ -95,7 +87,6 @@
 .ttw-music-player .artist {
     color: #666;
     font-family: tahoma, arial, sans-serif;
-    /*margin-left: 4px;*/
 }
 
 .ttw-music-player .rating {
@@ -123,9 +114,6 @@
 .ttw-music-player .player-controls {
     width: 270px;
     height: 30px;
-    /*border-radius: 6px;*/
-    /*-moz-border-radius: 6px;*/
-    /*-webkit-border-radius: 6px;*/
     background: transparent url(../images/music_player/player-bg.png) repeat 0 0 scroll;
     float: left;
     margin: 12px 0 0 0;
@@ -178,9 +166,6 @@
     float: left;
     background: transparent url(../images/music_player/player-progress.png) repeat-x 0 0 scroll;
     margin: 10px 10px 10px 0;
-    /*border-radius: 4px;*/
-    /*-moz-border-radius: 4px;*/
-    /*-webkit-border-radius: 4px;*/
 }
 
 .ttw-music-player .progress {
@@ -191,9 +176,6 @@
 
 .ttw-music-player .elapsed {
     height: 6px;
-    /*border-radius: 3px;*/
-    /*-moz-border-radius: 3px;*/
-    /*-webkit-border-radius: 3px;*/
     margin: 1px;
     width: 60%;
     background: transparent url(../images/music_player/player-elapsed.png) repeat-x 0 0 scroll;
@@ -225,9 +207,6 @@
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .15), 0 1px 0 rgba(255, 255, 255, .04);
     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .15), 0 1px 0 rgba(255, 255, 255, .04);
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .15), 0 1px 0 rgba(255, 255, 255, .04);
-    /*border-radius: 6px;*/
-    /*-moz-border-radius: 6px;*/
-    /*-webkit-border-radius: 6px;*/
     background: transparent url(../images/music_player/tracklist-bg.png) repeat 0 0 scroll;
     color: #999;
     font-size: 12px;
