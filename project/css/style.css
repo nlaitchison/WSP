@@ -675,6 +675,7 @@ width: 250px;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
 	opacity: 0;
+	-webkit-appearance: none;
 }
 
 
@@ -754,6 +755,7 @@ input#addme,input#vote {
 	text-transform: uppercase;
 	height: 32px;
 	color: #f6f6f6;
+	-webkit-appearance: none;
 }
 
 input#addme:hover,.footer_column ul li a:hover {
