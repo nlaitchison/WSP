@@ -667,8 +667,7 @@ div.file_upload:before {
 }
 
 div.file_upload input {
-	position: relative; /*height:  23px;
-	*/
+	position: relative; 
 width: 250px;
 	display: inline;
 	cursor: pointer;
@@ -884,6 +883,7 @@ img {
 	#frame { margin-top: -310px; }
 	#jqb_object,#jqb_object .jqb_slides,#jqb_object .jqb_slide { height: 309px; }
 	#music { height: 115px; }
+	.more { width: 30%; }
 
 	/* ----------Bands ----------*/
 
