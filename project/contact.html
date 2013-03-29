@@ -74,17 +74,17 @@
 								<fieldset>
 									<div class="form_input">
 										<label for="band_name">Band Name</label>
-										<input type="text" id="band_name" name="band_name" />
+										<input type="text" id="band_name" name="band_name" autofocus="autofocus" required="required" />
 									</div>
 
 									<div class="form_input">
 										<label for="band_email">Email Address</label>
-										<input type="email" id="band_email" name="band_email" placeholder="sample@site.com" />
+										<input type="email" id="band_email" name="band_email" placeholder="sample@site.com"required="required"/>
 									</div>
 
 									<div class="form_input">
 										<label for="facebook_url">Facebook URL</label>
-										<input type="text" id="facebook_url" name="facebook_url" placeholder="facebook.com/sample" />
+										<input type="text" id="facebook_url" name="facebook_url" placeholder="facebook.com/sample" required="required" />
 									</div>
 								</fieldset>
 								
@@ -97,24 +97,24 @@
 
 									<div class="form_input">
 										<label for="experience">Experience</label>
-										<input type="text" id="experience" name="experience" placeholder="Tell us about your band. Do you have touring experience? How many shows how you played?  "> 
+										<input type="text" id="experience" name="experience" placeholder="Tell us about your band. Do you have touring experience? How many shows how you played? " required="required" /> 
 									</div>
 
 									<div class="form_input">
 										<label for="genre">Genre(s)</label>
-										<input type="text" id="genre" name="genre">
+										<input type="text" id="genre" name="genre" required="required" />
 									</div>
 								</fieldset>
 
 								<fieldset>
 									<div class="form_input">
 										<label for="city">City</label>
-										<input type="text" id="city" name="city"/>
+										<input type="text" id="city" name="city" required="required"/>
 									</div>
 
 									<div class="form_input">
 										<label for="state">State</label>
-								   	 <select name="state" id="state">
+								   	 <select name="state" id="state" required="required">
     										<option value="AL">Alabama</option>
     										<option value="AK">Alaska</option>
      								    	<option value="AZ">Arizona</option>
@@ -174,9 +174,9 @@
     								<div class="form_input">
     									<label class="file">Upload Demo</label>
     									<div class="custom_file_upload">
-											<input type="text" class="file" name="file_info">
+											<input type="text" class="file" name="file_info" required="required" />
 											<div class="file_upload">
-												<input type="file" id="file_upload" name="file_upload">
+												<input type="file" id="file_upload" name="file_upload" />
 											</div>
 										</div>
 									</div>
@@ -197,12 +197,12 @@
 								<fieldset>
 									<div class="form_input">
 										<label for="name">Name</label>
-										<input type="text" id="name" name="name" />
+										<input type="text" id="name" name="name" required="required" />
 									</div>
 
 									<div class="form_input">
 										<label for="email">Email Address</label>
-										<input type="email" id="email" name="email" placeholder="sample@site.com" />
+										<input type="email" id="email" name="email" placeholder="sample@site.com" required="required" />
 									</div>
 								</fieldset>
 
@@ -219,11 +219,11 @@
 
        		 						<div class="form_input">
 										<label for="question">Question</label>
-										<input type="text" id="question" name="question" placeholder="Ask us anything.">
+										<input type="text" id="question" name="question" placeholder="Ask us anything." required="required" />
 									</div>
 
 									<div class="form_input">
-        								<input type="submit" value="Submit" name="submit" />
+        								<input type="submit" value="Submit" name="submit" required="required" />
         							</div>
         						</fieldset>
 
