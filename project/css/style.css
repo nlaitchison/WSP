@@ -633,6 +633,58 @@ h2.faq {
 	display: none;
 }
 
+div.custom_file_upload {
+	width: 230px;
+	height: 30px;
+	margin: 0 auto;
+	float: left;
+	overflow: hidden;
+}
+
+input.file {
+	width: 150px;
+	height: 20px;
+	border: 2px solid #0e0e0e;
+	background: #1d1d1d;
+	color: #888;
+	padding: 2px;
+	
+	outline: none;
+}
+
+div.file_upload {
+	width: 80px;
+	height: 22px;
+	background: #80005d;
+	border: 2px solid #141414;
+
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	cursor: pointer;
+
+	color: #FFF;
+	text-align: center;
+	padding-top: 3px;
+	margin-left: 10px;
+}
+div.file_upload:before {
+	content: 'UPLOAD';
+	position: absolute;
+	left: 0; right: 0;
+	text-align: center;
+	
+	cursor: pointer;
+}
+
+div.file_upload input {
+	position: relative;
+	/*height: 23px;*/
+	width: 250px;
+	display: inline;
+	cursor: pointer;
+	opacity: 0;
+}
 
 /* ---------------------------------------------------------------------------------------------------
 		∆ Footer
@@ -891,7 +943,10 @@ img {
 
 	#player {display: none;}
 
-	.more, input#vote { width: 100%}
+	.more, input#vote { width: 100%;}
+
+	/*div.custom_file_upload { width: 200px;}*/
+	/*input.file { width: 155px;}*/
 
 	/* ---------- Bands ---------- */
 
@@ -961,10 +1016,6 @@ img {
 
 	#jqb_object, #jqb_object .jqb_slides, #jqb_object .jqb_slide { height: 121px;}
 
-	
-
-
-
 	/* ---------- Bands ----------- */
 
 	#bands.sixteen.columns ul li.four.columns { width: 46%;}
@@ -981,6 +1032,9 @@ img {
 	 .form_input select#state, .form_input label.radio { clear: both;}
 
 	 .form_input label {text-align: left;}
+
+	 div.custom_file_upload {clear: both; width: 200px; height: 35px;}
+	 input.file { width: 155px; height:12px;}
 
 	 h2.hide {display: none;}
 

@@ -9,10 +9,13 @@
 
 		<!--[if lt IE 9]>
 			<script src="dist/html5shiv.js"></script>
+			<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
 		<![endif]-->
 
+		<!-- Skeleton Framework -->	
 		<link rel="stylesheet" type="text/css" href="css/skeleton.css">
-			
+		
+		<!-- MeanMenu -->	
 		<link rel="stylesheet" href="css/meanmenu.css" media="all" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script> 
    	    <script src="script/jquery.meanmenu.js"></script> 
@@ -21,10 +24,15 @@
     			jQuery('nav').meanmenu();
 			});
 		</script>
+
+		<!-- Home Banner -->	
 		<script src="script/jbanner.js"></script> 
 		
+		<!-- Main -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon" href="http://www.fatwreck.com/favicon.ico" />
 		<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+
 	</head>
 	<body>
 		<div id="wrapper">
@@ -167,8 +175,13 @@
 
     							<fieldset>
     								<div class="form_input">
-    									<label for="demo">Upload Demo</label>
-    									<input type="file" id="demo" name="demo">
+    									<label class="file">Upload Demo</label>
+    									<div class="custom_file_upload">
+											<input type="text" class="file" name="file_info">
+											<div class="file_upload">
+												<input type="file" id="file_upload" name="file_upload">
+											</div>
+										</div>
 									</div>
 
 									<div class="form_input">

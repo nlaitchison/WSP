@@ -38,7 +38,6 @@
             artist:'.artist',
             artistOuter:'.artist-outer',
             albumCover:'.img',
-            description:'.description',
             descriptionShowing:'.showing'
         };
 
